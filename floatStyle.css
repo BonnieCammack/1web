@@ -1,0 +1,53 @@
+body{
+
+    margin: 0;
+}
+
+header {
+    background-color: #322b4d;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: left;
+    width: 24%;
+    height: 1212px; /*only for demo, should be removed*/
+    background: #68599E;
+    padding: 17px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 17px;
+    width: 70%;
+    background-color: #9D86F0;
+    height: auto; /*only for demo*/
+}
+
+footer {
+    background-color: #322b4d;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+    width: 100%;
+    height: auto;
+    }
+}

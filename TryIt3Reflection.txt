@@ -1,0 +1,5 @@
+I noticed that when your using a float layout, the elements are positioned around text and with Flexbox the elements are arranged within a container.
+Flexbox felt easier to use because it made positioning and aligning elements more simple and straightforward. 
+The box model helped me control the spacing and size of elements, which made my layout look more organized. 
+One challenge I faced when building my layout was when I was creating my box model, I couldn't seem to figure out why there was no margin in between my header and my section one. (as you can see)
+I feel more confident using CSS on a stylesheet because it makes it so much easier to work with compared to having your CSS inside your html file along with everything that makes up your html (webpage). 
