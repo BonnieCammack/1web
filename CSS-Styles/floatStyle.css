@@ -1,5 +1,4 @@
 body{
-
     margin: 0;
 }
 
@@ -11,6 +10,10 @@ header {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 section::after {
     content: "";
     display: table;
@@ -18,6 +21,7 @@ section::after {
 }
 
 nav {
+    color: white;
     float: left;
     width: 24%;
     height: 1212px; /*only for demo, should be removed*/
@@ -25,9 +29,12 @@ nav {
     padding: 17px;
 }
 
+
 nav ul {
+    color: #FFFDF0
     list-style-type: none;
     padding: 0;
+    
 }
 
 article {
